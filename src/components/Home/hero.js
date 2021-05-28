@@ -7,7 +7,8 @@ function hero() {
       <div className="flex flex-col lg:flex-row justify-evenly items-center mb-10">
         <div className="mt-10 mb-10">
           <h1 className="text-4xl lg:text-7xl lg:text-left text-center font-extrabold tracking-tighter mb-3">
-            Mordern <br /> Solutions For Your
+            <span className="text-5xl lg:text-7xl">Mordern</span>
+            <br /> Solutions For Your
             <br />
             <span className="text-6xl lg:text-7xl text-indigo-500">
               Business.
