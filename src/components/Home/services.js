@@ -54,9 +54,9 @@ const features = [
   },
 ]
 
-export default function Example() {
+export default function Services() {
   return (
-    <div className="pb-10">
+    <div className="pb-10 max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <p className="text-4xl md:text-5xl mt-10 mb-10 font-semibold leading-8 tracking-tight text-gray-900 sm:text-4xl">

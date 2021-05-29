@@ -67,7 +67,7 @@ export default function Example() {
   return (
     <div className="sticky top-0 z-50">
       <div className="bg-indigo-500 py-1">
-        <div className="flex  flex-row-reverse max-h-full md:max-w-4/5 mx-auto text-white">
+        <div className="flex  flex-row-reverse max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto text-white">
           <a href="tel:01758357036" className="mr-3">
             01758357036
           </a>
@@ -80,7 +80,7 @@ export default function Example() {
       </div>
       <Popover className="relative bg-white shadow-lg">
         {({ open }) => (
-          <div className="max-h-full md:max-w-4/5 mx-auto">
+          <div className="max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto">
             <div>
               <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10 px-5 md:px-0">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
