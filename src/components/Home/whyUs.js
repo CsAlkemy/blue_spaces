@@ -1,5 +1,11 @@
 import React from "react"
 
+/**
+ * To Do in this components..
+ * @ Fix Spacing problem
+ * @ Download Svg and change color.
+ */
+
 function whyUs() {
   return (
     <div className="container my-16 ">

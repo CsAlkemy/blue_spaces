@@ -4,7 +4,7 @@ import ImageHero from "../../images/svg/website.svg"
 function hero() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row justify-evenly items-center mb-10">
+      <div className="flex flex-col lg:flex-row justify-between items-center mb-10">
         <div className="mt-10 mb-10">
           <h1 className="text-4xl lg:text-7xl lg:text-left text-center font-extrabold tracking-tighter mb-3">
             <span className="text-5xl lg:text-7xl">Mordern</span>

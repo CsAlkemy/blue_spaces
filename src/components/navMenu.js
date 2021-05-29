@@ -7,6 +7,7 @@ import {
   CurrencyDollarIcon,
   CursorClickIcon,
   MenuIcon,
+  PhoneIcon,
   TerminalIcon,
   XIcon,
 } from "@heroicons/react/outline"
@@ -14,6 +15,7 @@ import {
   ChartPieIcon,
   ChevronDownIcon,
   CubeTransparentIcon,
+  MailIcon,
   PresentationChartBarIcon,
 } from "@heroicons/react/solid"
 import { Link } from "gatsby"
@@ -64,6 +66,18 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <div className="sticky top-0 z-50">
+      <div className="bg-indigo-500 py-1">
+        <div className="flex  flex-row-reverse max-h-full md:max-w-4/5 mx-auto text-white">
+          <a href="tel:01758357036" className="mr-3">
+            01758357036
+          </a>
+          <PhoneIcon className="h-4 w-4 my-auto mr-1" aria-hidden="true" />
+          <a href="mailto:bluespaces@info.xyz" className=" mr-2">
+            bluespaces@info.xyz
+          </a>
+          <MailIcon className="h-4 w-4 my-auto mr-1" aria-hidden="true" />
+        </div>
+      </div>
       <Popover className="relative bg-white shadow-lg">
         {({ open }) => (
           <div className="max-h-full md:max-w-4/5 mx-auto">

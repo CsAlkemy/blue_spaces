@@ -1,78 +1,99 @@
 import React from "react"
 import {
-  AnnotationIcon,
+  CursorClickIcon,
+  DatabaseIcon,
   GlobeAltIcon,
-  LightningBoltIcon,
-  ScaleIcon,
+  PresentationChartLineIcon,
+  TrendingUpIcon,
+  UsersIcon,
 } from "@heroicons/react/outline"
+import { Link } from "gatsby"
 
 const features = [
   {
     name: "Web Design and Development",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Elevate your business with a trusted website that your customers will love.Your website will load extremely fast and look great on all devices.",
     icon: GlobeAltIcon,
+    to: "/webdev",
   },
   {
     name: "Mobile Application ",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon,
+      "BlueSpaces is the fast-growing Mobile application and Game development Company that is guided in delivering the products and views into mobile space with prime quality.",
+    icon: CursorClickIcon,
+    to: "/mobiledev",
   },
   {
     name: "Search Engine Optimization",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
+      "BlueSpaces provides full-service SEO packages with specialists and customer success representatives dedicated to helping you increase your ranking online.",
+    icon: TrendingUpIcon,
+    to: "/seo",
   },
   {
     name: "Data Analysis",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: AnnotationIcon,
+      "We also provide data analysis services for your business to take smarter decisions, using tools like Power BI, SSRS, tableau dashboard",
+    icon: PresentationChartLineIcon,
+    to: "/da",
   },
   {
-    name: "Email Marketing",
+    name: "Digital Marketing",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
+      "We offer all types of online marketing services including SEO, SEM, SMM, SMO, paid ads, email marketing, SMS marketing and push notification services. We are a dedicated team of people who always serve the brand supervisor’s clients. ",
+    icon: UsersIcon,
+    to: "/dm",
   },
   {
     name: "Domain And Hosting",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: AnnotationIcon,
+      "BlueSpaces also offers an All in One website maintenance solution that encompasses hosting, Content Updates, and Source Update of the current site. We help you concentrate on your business while leaving Content Updates and Regular Maintenance of your website to us.",
+    icon: DatabaseIcon,
+    to: "/dh",
   },
 ]
 
 export default function Example() {
   return (
-    <div className="bg-white pb-10">
+    <div className="pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <p className="text-4xl md:text-5xl mt-10 mb-10 font-semibold leading-8 tracking-tight text-gray-900 sm:text-4xl">
             Our Services
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            We as a big team provide IT enable support including Web and App
+            development, IT Consultation, SEO, Digital Marketing, Data Analysis
+            and many more.
           </p>
         </div>
 
         <div className="mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {features.map(feature => (
-              <div key={feature.name} className="relative">
+              <div
+                key={feature.name}
+                className="relative transform duration-500 hover:-translate-y-2  hover:bg-white"
+              >
                 <dt>
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                     <feature.icon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                  <Link
+                    to={feature.to}
+                    className="ml-16 text-lg leading-6 font-medium text-gray-900"
+                  >
                     {feature.name}
-                  </p>
+                  </Link>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">
-                  {feature.description}
+                <dd className="mt-2 ml-16 text-base text-gray-500 text-justify hidden md:block">
+                  {feature.description}{" "}
+                  <span>
+                    <Link to={feature.to} className="text-indigo-500">
+                      Learn More..
+                    </Link>
+                  </span>
                 </dd>
               </div>
             ))}

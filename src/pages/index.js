@@ -6,6 +6,12 @@ import Hero from "../components/Home/hero"
 import WhyUS from "../components/Home/whyUs"
 import Services from "../components/Home/services"
 
+/**
+ *
+ * To Do
+ * @ Review overall spacing.
+ */
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
