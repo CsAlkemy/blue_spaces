@@ -8,6 +8,7 @@ import Hero from "../components/Home/hero"
 import WhyUS from "../components/Home/whyUs"
 import Serve from "../components/Home/serve"
 import Cta from "../components/Home/cta"
+import Blog from "../components/Home/blogs"
 
 /**
  *
@@ -25,6 +26,7 @@ const IndexPage = () => (
       <Serve />
       <Testimonial />
       <Cta />
+      <Blog />
     </div>
   </Layout>
 )

@@ -53,7 +53,7 @@ const footer = () => {
             </div>
           </div>
         </div>
-        <div className="my-5 text-center text-xs pb-10">
+        <div className="mt-5 text-center text-xs pb-10">
           Made With{" "}
           <span role="img" aria-label="lovemealkemy">
             ❤️
