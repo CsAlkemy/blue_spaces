@@ -13,3 +13,9 @@
     display: none;
   }
 }
+
+.BgImageClass {
+  background-image: url("../images/office.jpg");
+  background-repeat: no-repeat;
+  object-fit: fill;
+}

@@ -18,7 +18,7 @@ import Cta from "../components/Home/cta"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <div className="mx-5 md:mx-auto my-10">
+    <div className="mx-5 md:mx-auto mt-10">
       <Hero />
       <WhyUS />
       <Services />
