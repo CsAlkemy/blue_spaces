@@ -68,12 +68,12 @@ export default function Example() {
     <div className="sticky top-0 z-50">
       <div className="bg-indigo-500 py-1">
         <div className="flex  flex-row-reverse max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto text-white">
-          <a href="tel:01758357036" className="mr-3">
-            01758357036
+          <a href="tel:+8801886007480" className="mr-3">
+            +8801886007480
           </a>
           <PhoneIcon className="h-4 w-4 my-auto mr-1" aria-hidden="true" />
           <a href="mailto:bluespaces@info.xyz" className=" mr-2">
-            bluespaces@info.xyz
+            info@bluespaces.xyz
           </a>
           <MailIcon className="h-4 w-4 my-auto mr-1" aria-hidden="true" />
         </div>
