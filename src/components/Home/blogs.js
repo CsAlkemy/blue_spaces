@@ -34,13 +34,13 @@ function blogs() {
         {Blogs.map(blog => (
           <div
             key={blog.title}
-            className="bg-white rounded-xl shadow-lg  transform duration-500 hover:-translate-y-2"
+            className="bg-white shadow-lg  transform duration-500 hover:-translate-y-2"
           >
             <img
               key={blog.title}
               src={Image}
               alt="blogCard"
-              className="object-cover rounded-xl rounded-b-none "
+              className="object-cover   "
             />
             <div className="text-left px-4 my-3 text-xl font-medium text-gray-600">
               {blog.title}
@@ -50,7 +50,7 @@ function blogs() {
             </div>
             <Link
               to="/"
-              className=" block items-center rounded-t-none justify-center px-5 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-indigo-600 hover:bg-indigo-700"
+              className=" block items-center justify-center px-5 py-3 border border-transparent text-base font-medium  text-white bg-indigo-600 hover:bg-indigo-700"
             >
               Read Now
             </Link>
