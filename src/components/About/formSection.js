@@ -49,7 +49,9 @@ const formSection = () => {
               name="contact"
               method="POST"
               data-netlify="true"
+              data-netlify-honeypot="bot-field"
             >
+              <input type="hidden" name="contact" value="contact" />
               <div className="my-2">
                 <label htmlFor="name" className="mb-1">
                   Name
