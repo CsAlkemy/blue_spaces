@@ -43,7 +43,13 @@ const formSection = () => {
             </div>
           </div>
           <div className=" shadow-xl p-4 bg-gray-800 text-white rounded-md">
-            <form action="" className="p-5">
+            <form
+              action=""
+              className="p-5"
+              name="contact"
+              method="POST"
+              data-netlify="true"
+            >
               <div className="my-2">
                 <label htmlFor="name" className="mb-1">
                   Name
@@ -51,6 +57,7 @@ const formSection = () => {
                 <input
                   required
                   type="text"
+                  name="name"
                   className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                   aria-label="name"
                   placeholder="Name"
@@ -63,6 +70,7 @@ const formSection = () => {
                 <input
                   required
                   type="email"
+                  name="email"
                   className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                   aria-label="email"
                   placeholder="Email"
@@ -74,6 +82,7 @@ const formSection = () => {
                 </label>
                 <input
                   type="text"
+                  name="phone"
                   className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                   aria-label="phone"
                   placeholder="Phone"
@@ -84,6 +93,7 @@ const formSection = () => {
                   Type of Service you looking
                 </label>
                 <select
+                  name="ServiceType"
                   type="text"
                   className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                   aria-label="ServiceType"
@@ -101,6 +111,7 @@ const formSection = () => {
                   Message
                 </label>
                 <textarea
+                  name="message"
                   type="text"
                   className="bg-gray-200 resize appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                   aria-label="Message"
