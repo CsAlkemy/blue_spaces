@@ -24,39 +24,48 @@ const solutions = [
   {
     name: "Web Development",
     description:
-      "Get a better understanding of where your traffic is coming from.",
-    to: "/",
+      "Build super fast websites that's takes less then 6s to load with us.",
+    to: "/webdev",
     icon: TerminalIcon,
   },
   {
     name: "App Development",
-    description: "Speak directly to your customers in a more meaningful way.",
-    to: "/",
+    description: "We will help you build your customized applications. ",
+    to: "/appdev",
     icon: CursorClickIcon,
   },
   {
     name: "Search Engine Optimization",
-    description: "Your customers' data will be safe and secure.",
-    to: "/",
+    description: "We make your site stand on the top",
+    to: "/seoWork",
     icon: PresentationChartBarIcon,
   },
   {
     name: "Digital Marketing",
-    description: "Connect with third-party tools that you're already using.",
-    to: "/portfolio",
+    description: "Our Expert will help your drive more potential buyers.",
+    to: "/digital_m",
     icon: ChartPieIcon,
   },
   {
-    name: "Animation",
-    description:
-      "Build strategic funnels that will drive your customers to convert",
-    to: "/contact",
+    name: "Data Analysis",
+    description: "Data visulization using Python, R, Power BI",
+    to: "/dataAnalysis",
     icon: CubeTransparentIcon,
   },
 ]
 const callsToAction = [
-  { name: "Our Works", href: "", icon: ArrowCircleRightIcon },
-  { name: "Pricing", href: "", icon: CurrencyDollarIcon },
+  {
+    name: "Portfolio",
+    href: "/portfolio",
+    icon: ArrowCircleRightIcon,
+    to: "/portfolio",
+  },
+  {
+    name: "Contact",
+    href: "/contact",
+    icon: CurrencyDollarIcon,
+    to: "/contact",
+  },
 ]
 
 function classNames(...classes) {
@@ -96,8 +105,8 @@ export default function Example() {
                     to="/"
                     className="text-3xl font-light mt-1 text-gray-600 lg:inline hidden ml-2"
                   >
-                    <span className="text-blue-500">B</span>lue
-                    <span className="text-blue-500">S</span>paces
+                    <span className="text-blue-500 ">Blue</span>
+                    <span className="text-gray-800 ">Spaces</span>
                   </Link>
                 </div>
                 <div className="-mr-2 -my-2 md:hidden">
@@ -177,7 +186,7 @@ export default function Example() {
                                       className="-m-3 p-3 flex items-center rounded-md text-base font-medium  bg-indigo-600 hover:bg-indigo-800 text-white"
                                     >
                                       <item.icon
-                                        className="flex-shrink-0 h-6 w-6 text-gray-400"
+                                        className="flex-shrink-0  h-6 w-6 text-gray-400"
                                         aria-hidden="true"
                                       />
                                       <span className="ml-3">{item.name}</span>
@@ -206,12 +215,12 @@ export default function Example() {
                   </Link>
                 </Popover.Group>
                 <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                  <a
-                    href="/"
+                  <Link
+                    to="/contact"
                     className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Get a Quote
-                  </a>
+                    Contact Us
+                  </Link>
                 </div>
               </div>
             </div>
@@ -289,7 +298,7 @@ export default function Example() {
                         href="/pricing"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
-                        Pricing
+                        About Us
                       </Link>
 
                       <Link
@@ -304,7 +313,7 @@ export default function Example() {
                         href="/contact"
                         className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                       >
-                        Get a Quote
+                        Contact Us
                       </Link>
                       <p className="mt-6 text-center text-base font-medium text-gray-600">
                         Existing customer?{" "}
