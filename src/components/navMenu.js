@@ -56,13 +56,11 @@ const solutions = [
 const callsToAction = [
   {
     name: "Portfolio",
-    href: "/portfolio",
     icon: ArrowCircleRightIcon,
     to: "/portfolio",
   },
   {
     name: "Contact",
-    href: "/contact",
     icon: CurrencyDollarIcon,
     to: "/contact",
   },
@@ -182,7 +180,7 @@ export default function Example() {
                                 {callsToAction.map(item => (
                                   <div key={item.name} className="flow-root">
                                     <Link
-                                      to={item.href}
+                                      to={item.to}
                                       className="-m-3 p-3 flex items-center rounded-md text-base font-medium  bg-indigo-600 hover:bg-indigo-800 text-white"
                                     >
                                       <item.icon
@@ -260,9 +258,9 @@ export default function Example() {
                     <div className="mt-6">
                       <nav className="grid gap-y-8">
                         {solutions.map(item => (
-                          <a
+                          <Link
                             key={item.name}
-                            href={item.href}
+                            to={item.to}
                             className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                           >
                             <item.icon
@@ -272,7 +270,7 @@ export default function Example() {
                             <span className="ml-3 text-base font-medium text-gray-900">
                               {item.name}
                             </span>
-                          </a>
+                          </Link>
                         ))}
                       </nav>
                     </div>
@@ -280,14 +278,14 @@ export default function Example() {
                   <div className="py-6 px-5 space-y-6">
                     <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                       <Link
-                        href="/"
+                        to="/"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Home
                       </Link>
 
                       <Link
-                        href="/portfolio"
+                        to="/portfolio"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Our Works
@@ -295,14 +293,14 @@ export default function Example() {
                     </div>
                     <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                       <Link
-                        href="/pricing"
+                        to="/pricing"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         About Us
                       </Link>
 
                       <Link
-                        href="/contact"
+                        to="/contact"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Contacts
@@ -310,14 +308,11 @@ export default function Example() {
                     </div>
                     <div>
                       <Link
-                        href="/contact"
+                        to="/contact"
                         className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                       >
                         Contact Us
                       </Link>
-                      <p className="mt-6 text-center text-base font-medium text-gray-600">
-                        Existing customer?{" "}
-                      </p>
                     </div>
                   </div>
                 </div>
