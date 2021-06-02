@@ -42,7 +42,7 @@ const formSection = () => {
               <FaTwitter className="h-10 w-10 text-blue-400" />
             </div>
           </div>
-          <div className=" shadow-xl p-4 bg-gray-800 text-white rounded-md">
+          <div className="  p-4  text-gray-800 rounded-md">
             <form
               action=""
               className="p-5"

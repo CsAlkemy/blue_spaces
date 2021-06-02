@@ -8,7 +8,7 @@ export default function Cta() {
           <div className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
             <span className="block text-white">Ready to dive in?</span>
             <span className="block text-blue-500 ">Join Us as a Partner.</span>
-            <span className=" block text-base text-white font-normal text-left mt-2">
+            <span className=" block text-lg text-white font-normal text-left mt-2">
               With the help of our partners, we can share our expertise and
               resources around the world. And thus we are expanding as the home
               of top IT professionals. So contact us to see how you can join our
@@ -17,19 +17,19 @@ export default function Cta() {
             <div className="mt-8 flex lg:mt-5 lg:flex-shrink-0">
               <div className="inline-flex rounded-md shadow">
                 <Link
-                  to="/"
+                  to="/contact"
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   Get started
                 </Link>
               </div>
               <div className="ml-3 inline-flex rounded-md shadow">
-                <Link
-                  to="/"
+                <a
+                  href="tel:+8801886007480"
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50"
                 >
                   Call Us
-                </Link>
+                </a>
               </div>
             </div>
           </div>

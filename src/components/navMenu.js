@@ -79,13 +79,13 @@ export default function Example() {
             +8801886007480
           </a>
           <PhoneIcon className="h-4 w-4 my-auto mr-1" aria-hidden="true" />
-          <a href="mailto:bluespaces@info.xyz" className=" mr-2">
-            info@bluespaces.xyz
+          <a href="mailto:bluespace@info.xyz" className=" mr-2">
+            info@bluespace.xyz
           </a>
           <MailIcon className="h-4 w-4 my-auto mr-1" aria-hidden="true" />
         </div>
       </div>
-      <Popover className="relative bg-white shadow-lg">
+      <Popover className="relative bg-white shadow-md">
         {({ open }) => (
           <div className="max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto">
             <div>
@@ -104,7 +104,7 @@ export default function Example() {
                     className="text-3xl font-light mt-1 text-gray-600 lg:inline hidden ml-2"
                   >
                     <span className="text-blue-500 ">Blue</span>
-                    <span className="text-gray-800 ">Spaces</span>
+                    <span className="text-gray-800 ">Space</span>
                   </Link>
                 </div>
                 <div className="-mr-2 -my-2 md:hidden">
