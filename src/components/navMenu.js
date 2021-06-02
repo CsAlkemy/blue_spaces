@@ -53,6 +53,7 @@ const solutions = [
     icon: CubeTransparentIcon,
   },
 ]
+
 const callsToAction = [
   {
     name: "Portfolio",
@@ -206,7 +207,7 @@ export default function Example() {
                     Our Works
                   </Link>
                   <Link
-                    to="/contact"
+                    to="/about"
                     className="text-base font-medium text-gray-600 hover:text-gray-900"
                   >
                     About us

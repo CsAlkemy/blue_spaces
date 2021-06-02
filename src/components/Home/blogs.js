@@ -51,7 +51,7 @@ function blogs() {
             <div className="text-left px-4 my-3 text-xl font-medium text-gray-600">
               {blog.title}
             </div>
-            <div className="text-left mb-12 px-4 text-sm text-gray-500 font-light">
+            <div className="text-left pb-14 px-4 text-sm text-gray-500 font-light">
               {blog.subTitle}
             </div>
             <div className="absolute bottom-0 inset-x-0">

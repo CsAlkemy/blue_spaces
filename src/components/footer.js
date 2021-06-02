@@ -1,5 +1,11 @@
+import { MailIcon, PhoneIcon } from "@heroicons/react/outline"
 import { Link } from "gatsby"
 import * as React from "react"
+import {
+  AiFillFacebook,
+  AiFillLinkedin,
+  AiFillTwitterSquare,
+} from "react-icons/ai"
 
 const footer = () => {
   return (
@@ -44,25 +50,56 @@ const footer = () => {
           </div>
           <div className="mr-auto md:ml-0 ml-5">
             <h1 className="text-base font-medium md:mt-0 mt-3">Address.</h1>
-            <div className="flex flex-row flex-nowrap font-light text-sm">
-              <div className="mr-3 ">
+            <div className="grid grid-cols-3 font-light text-sm">
+              <div className="mr-3">
                 <h3 className="font-medium underline">Headquater</h3>
+                <p>Merkley square,</p>
+                <p>Scarborough, ontario,</p>
+                <p>Canada</p>
+              </div>
+              <div className="mr-3 ">
+                <h3 className="font-medium underline">Branch One</h3>
                 <p>k9/13, Joydebpur</p>
                 <p>Gazipur-1700</p>
                 <p>Dhaka- Bangladesh</p>
               </div>
               <div className="mr-3">
-                <h3 className="font-medium underline">Branch One</h3>
-                <p>12/15 Housing, Darussalam</p>
-                <p>Mirpur- 1, Dhaka-1216</p>
-                <p>Bangladesh</p>
-              </div>
-              <div className="mr-3">
                 <h3 className="font-medium underline">Branch Two</h3>
-                <p>Khayerbaria</p>
+                <p>H-468, KhayerBaria</p>
                 <p>Santhia-6667, Pabna</p>
                 <p>Bangladesh</p>
               </div>
+            </div>
+          </div>
+          <div className="mr-auto md:ml-0 ml-5">
+            <h3 className="text-base font-medium md:mt-0 mt-3">
+              Get In Touch.
+            </h3>
+            <div className="flex flex-row mt-2">
+              <PhoneIcon className="h-5" />
+              <a className="ml-3  text-md" href="tel:01886007480">
+                +8801886007480
+              </a>
+            </div>
+            <div className="flex flex-row">
+              <MailIcon className="h-5" />
+              <a
+                className="ml-3 mb-3 text-md "
+                href="mailto:info@bluespaces.xyz"
+              >
+                info@bluespaces.xyz
+              </a>
+            </div>
+            <div className="flex gap-1">
+              <a href="/">
+                <AiFillFacebook className="h-7 w-7" />
+              </a>
+              <a href="/">
+                <AiFillLinkedin className="h-7 w-7" />
+              </a>
+              <a href="/">
+                <AiFillTwitterSquare className="h-7 w-7" />
+              </a>
             </div>
           </div>
         </div>

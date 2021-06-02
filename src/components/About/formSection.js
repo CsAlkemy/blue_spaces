@@ -1,7 +1,10 @@
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline"
 import React from "react"
-import { FaTwitter, FaFacebookF } from "react-icons/fa"
-import { SiUpwork } from "react-icons/si"
+import {
+  AiFillFacebook,
+  AiFillLinkedin,
+  AiFillTwitterSquare,
+} from "react-icons/ai"
 const formSection = () => {
   return (
     <div className=" py-20">
@@ -30,16 +33,16 @@ const formSection = () => {
                 info@bluespaces.xyz
               </a>
             </div>
-            <div className="flex gap-4">
-              <a
-                href="https://www.facebook.com/bluespaces.xyz"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <FaFacebookF className="h-9 w-9 text-blue-500" />
+            <div className="flex gap-1">
+              <a href="/">
+                <AiFillFacebook className="h-7 w-7 text-blue-600" />
               </a>
-              <SiUpwork className="h-10 w-10 text-green-500" />
-              <FaTwitter className="h-10 w-10 text-blue-400" />
+              <a href="/">
+                <AiFillLinkedin className="h-7 w-7 text-blue-800" />
+              </a>
+              <a href="/">
+                <AiFillTwitterSquare className="h-7 w-7" />
+              </a>
             </div>
           </div>
           <div className="  p-4  text-gray-800 rounded-md">

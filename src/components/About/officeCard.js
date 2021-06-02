@@ -72,7 +72,7 @@ const officeCard = () => {
             <div className="flex flex-row">
               <PhoneIcon className="h-5" />
               <a className="ml-3" href="tel:+8801551810867">
-                +8801551810867
+                +8801521109475
               </a>
             </div>
             <div className="flex flex-row">
@@ -84,8 +84,8 @@ const officeCard = () => {
             <div className="flex flex-row">
               <LocationMarkerIcon className="h-5" />
               <p className="ml-3">
-                West chayabithi
-                <br /> Gazipur-1700 Dhaka- Bangladesh
+                H-468, KhayerBaria
+                <br /> Santhia-6667, Pabna, Bangladesh
               </p>
             </div>
           </div>
