@@ -82,7 +82,7 @@ export default function Services() {
                   </div>
                   <Link
                     to={feature.to}
-                    className="ml-16 text-lg leading-6 font-medium text-gray-900"
+                    className="ml-16 text-sm sm:text-lg leading-6 font-medium text-gray-900"
                   >
                     {feature.name}
                   </Link>

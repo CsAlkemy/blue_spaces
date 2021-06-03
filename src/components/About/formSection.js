@@ -10,8 +10,8 @@ const formSection = () => {
     <div className=" py-20">
       <div className="max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div>
-            <h1 className="text-7xl text-gray-700 font-light pb-10">
+          <div className="pl-4">
+            <h1 className="text-7xl text-gray-700 font-light pb-10 mt-16">
               Get In Touch
             </h1>
             <p className="text-left text-base font-medium text-gray-500">

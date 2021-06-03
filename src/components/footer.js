@@ -13,8 +13,8 @@ const footer = () => {
       <div className="max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto">
         <div className="text-3xl md:ml-0 ml-5">
           {" "}
-          BlueSpace<span className="my-5 text-7xl text-green-400 ">.</span>
-          <span className="text-gray-400 text-3xl">xyz</span>
+          BlueSpaceCa<span className="my-5 text-7xl text-green-400 ">.</span>
+          <span className="text-gray-400 text-3xl">com</span>
         </div>
         <div className="flex flex-col md:flex-row my-5 bg-gray-800 text-white">
           <div className="mr-auto md:ml-0 ml-5">
@@ -40,12 +40,21 @@ const footer = () => {
           <div className="mr-auto md:ml-0 ml-5">
             <h3 className="text-base font-medium md:mt-0 mt-3">Services.</h3>
             <ul className="font-light text-sm">
-              <li>Web Development</li>
-              <li>App Development</li>
-              <li>SEO</li>
-              <li>Data Analysis</li>
-              <li>Domain Hosting</li>
-              <li>Digital Marketing</li>
+              <li>
+                <Link to="/webdev">Web Development</Link>{" "}
+              </li>
+              <Link to="/appdev">
+                <li>App Development</li>
+              </Link>
+              <Link to="/seoWork">
+                <li>SEO</li>
+              </Link>
+              <Link to="/dataAnalysis">
+                <li>Data Analysis</li>
+              </Link>
+              <Link to="/digital_m">
+                <li>Digital Marketing</li>
+              </Link>
             </ul>
           </div>
           <div className="mr-auto md:ml-0 ml-5">
@@ -87,7 +96,7 @@ const footer = () => {
                 className="ml-3 mb-3 text-md "
                 href="mailto:info@bluespaces.xyz"
               >
-                info@bluespaces.xyz
+                info@bluespaceca.com
               </a>
             </div>
             <div className="flex gap-1">
@@ -108,7 +117,7 @@ const footer = () => {
           <span role="img" aria-label="lovemealkemy">
             ❤️
           </span>{" "}
-          By BlueSpace.xyz
+          By BlueSpace
         </div>
       </div>
     </div>

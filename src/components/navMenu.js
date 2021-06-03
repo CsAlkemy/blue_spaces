@@ -2,6 +2,7 @@
 import { Fragment } from "react"
 import React from "react"
 import { Popover, Transition } from "@headlessui/react"
+import Logo from "../images/logo.jpg"
 import {
   ArrowCircleRightIcon,
   CurrencyDollarIcon,
@@ -75,13 +76,13 @@ export default function Example() {
   return (
     <div className="sticky top-0 z-50">
       <div className="bg-indigo-500 py-1">
-        <div className="flex  flex-row-reverse max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto text-white">
+        <div className="flex  flex-row-reverse max-h-full text-sm md:max-w-3/4 xl:max-w-3/5 mx-auto text-white">
           <a href="tel:+8801886007480" className="mr-3">
             +8801886007480
           </a>
           <PhoneIcon className="h-4 w-4 my-auto mr-1" aria-hidden="true" />
           <a href="mailto:bluespace@info.xyz" className=" mr-2">
-            info@bluespace.xyz
+            info@bluespaceca.com
           </a>
           <MailIcon className="h-4 w-4 my-auto mr-1" aria-hidden="true" />
         </div>
@@ -96,8 +97,8 @@ export default function Example() {
                     <span className="sr-only">Workflow</span>
                     <img
                       className="h-8 w-auto sm:h-10"
-                      src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_32f1896c14d53226e64c634416723e55/benevity-goodness-platform.png"
-                      alt=""
+                      src={Logo}
+                      alt="Brand main lg"
                     />
                   </Link>
                   <Link

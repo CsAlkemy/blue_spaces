@@ -19,7 +19,7 @@ import Blog from "../components/Home/blogs"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <div className="mx-5 md:mx-auto mt-10">
+    <div className="mt-10">
       <Hero />
       <WhyUS />
       <Services />

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `BlueSpaces`,
-    description: `Create your business with gatsby.`,
-    author: `@alkemy`,
+    title: `BlueSpace`,
+    description: `BlueSpace is a Canada and Bangladesh based IT Solutions company providing services like Web App development, SEO, Data Visualization and many more.`,
+    author: `@alkemyHossain`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,13 +20,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `BlueSpaces`,
-        short_name: `IT Org`,
+        name: `BlueSpace`,
+        short_name: `BlueSpace`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.jpg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,

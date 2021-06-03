@@ -7,8 +7,8 @@ import FormSection from "../components/About/formSection"
 const WebDev = () => (
   <Layout>
     <Seo title="Website Development" />
-    <section className="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
-      <section className="relative px-10 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
+    <section className="md:max-w-3/4 xl:max-w-3/5 mx-auto">
+      <section className="relative px-5 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
         <div className="bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full top-48 right-5">
           <div className="flex justify-between font-bold text-sm">
             <p>Fast and Secure Websites</p>
