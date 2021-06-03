@@ -1,10 +1,11 @@
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline"
-import React from "react"
+import * as React from "react"
 import {
   AiFillFacebook,
   AiFillLinkedin,
   AiFillTwitterSquare,
 } from "react-icons/ai"
+
 const formSection = () => {
   return (
     <div className=" py-20">
