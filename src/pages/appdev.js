@@ -2,6 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import FormSection from "../components/About/formSection"
 
 const AppDev = () => (
   <Layout>
@@ -37,6 +38,7 @@ const AppDev = () => (
         </div>
       </section>
     </section>
+    <FormSection />
   </Layout>
 )
 

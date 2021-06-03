@@ -294,7 +294,7 @@ export default function Example() {
                     </div>
                     <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                       <Link
-                        to="/pricing"
+                        to="/about"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         About Us
