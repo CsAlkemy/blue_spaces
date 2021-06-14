@@ -100,13 +100,16 @@ const footer = () => {
               </a>
             </div>
             <div className="flex gap-1">
-              <a href="/">
+              <a href="https://www.facebook.com/bluespaces.xyz" target="_blank">
                 <AiFillFacebook className="h-7 w-7" />
               </a>
-              <a href="/">
+              <a
+                href="https://www.linkedin.com/company/74349398/"
+                target="_blank"
+              >
                 <AiFillLinkedin className="h-7 w-7" />
               </a>
-              <a href="/">
+              <a href="https://twitter.com/BlueSpacesLLC" target="_blank">
                 <AiFillTwitterSquare className="h-7 w-7" />
               </a>
             </div>
