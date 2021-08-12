@@ -21,8 +21,8 @@ const formSection = () => {
             </p>
             <div className="flex flex-row mt-10">
               <PhoneIcon className="h-5" />
-              <a className="ml-3  text-xl" href="tel:01886007480">
-                +8801886007480
+              <a className="ml-3  text-xl" href="tel:+8801521109475">
+                +8801521109475
               </a>
             </div>
             <div className="flex flex-row">
@@ -31,20 +31,29 @@ const formSection = () => {
                 className="ml-3  mb-5 text-xl"
                 href="mailto:info@bluespaces.xyz"
               >
-                info@bluespaces.xyz
+                thebluespace@gmail.com
               </a>
             </div>
             <div className="flex gap-1">
-              <a href="https://www.facebook.com/bluespaces.xyz" target="_blank">
+              <a
+                href="https://www.facebook.com/bluespaces.xyz"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <AiFillFacebook className="h-7 w-7 text-blue-600" />
               </a>
               <a
                 href="https://www.linkedin.com/company/74349398/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <AiFillLinkedin className="h-7 w-7 text-blue-800" />
               </a>
-              <a href="https://twitter.com/BlueSpacesLLC" target="_blank">
+              <a
+                href="https://twitter.com/BlueSpacesLLC"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <AiFillTwitterSquare className="h-7 w-7" />
               </a>
             </div>

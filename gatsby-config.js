@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `BlueSpace`,
+    title: `The BlueSpace`,
     description: `BlueSpace is a Canada and Bangladesh based IT Solutions company providing services like Web App development, SEO, Data Visualization and many more.`,
     author: `@alkemyHossain`,
   },

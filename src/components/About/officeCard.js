@@ -20,14 +20,14 @@ const officeCard = () => {
           <div className="p-2 my-5">
             <div className="flex flex-row">
               <PhoneIcon className="h-5" />
-              <a className="ml-3" href="tel:01886007480">
-                +8801886007480
+              <a className="ml-3" href="tel:01758357036">
+                +8801758357036
               </a>
             </div>
             <div className="flex flex-row">
               <MailIcon className="h-5" />
-              <a className="ml-3" href="mailto:info@bluespaces.xyz">
-                info@bluespaces.xyz
+              <a className="ml-3" href="mailto:info.thebluespace@gmail.com">
+                info.thebluespace@gmail.com
               </a>
             </div>
             <div className="flex flex-row">
@@ -51,8 +51,8 @@ const officeCard = () => {
             </div>
             <div className="flex flex-row">
               <MailIcon className="h-5" />
-              <a className="ml-3" href="mailto:info@bluespaces.xyz">
-                info@bluespaces.xyz
+              <a className="ml-3" href="mailto:info.thebluespace@gmail.com">
+                info.thebluespace@gmail.com
               </a>
             </div>
             <div className="flex flex-row">
@@ -77,8 +77,8 @@ const officeCard = () => {
             </div>
             <div className="flex flex-row">
               <MailIcon className="h-5" />
-              <a className="ml-3" href="mailto:info@bluespaces.xyz">
-                info@bluespaces.xyz
+              <a className="ml-3" href="mailto:info.thebluespace@gmail.com">
+                info.thebluespace@gmail.com
               </a>
             </div>
             <div className="flex flex-row">

@@ -13,8 +13,8 @@ const footer = () => {
       <div className="max-h-full md:max-w-3/4 xl:max-w-3/5 mx-auto">
         <div className="text-3xl md:ml-0 ml-5">
           {" "}
-          BlueSpaceCa<span className="my-5 text-7xl text-green-400 ">.</span>
-          <span className="text-gray-400 text-3xl">com</span>
+          TheBlueSpace<span className="my-5 text-7xl text-green-400 ">.</span>
+          <span className="text-gray-400 text-3xl">xyz</span>
         </div>
         <div className="flex flex-col md:flex-row my-5 bg-gray-800 text-white">
           <div className="mr-auto md:ml-0 ml-5">
@@ -86,30 +86,44 @@ const footer = () => {
             </h3>
             <div className="flex flex-row mt-2">
               <PhoneIcon className="h-5" />
-              <a className="ml-3  text-md" href="tel:01886007480">
-                +8801886007480
+              <a
+                className="ml-3  text-md"
+                rel="noreferrer"
+                href="tel:+8801521109475"
+              >
+                +8801521109475
               </a>
             </div>
             <div className="flex flex-row">
               <MailIcon className="h-5" />
               <a
                 className="ml-3 mb-3 text-md "
-                href="mailto:info@bluespaces.xyz"
+                rel="noreferrer"
+                href="mailto:info.thebluespace@gmail.com"
               >
-                info@bluespaceca.com
+                info.thebluespace@gmail.com
               </a>
             </div>
             <div className="flex gap-1">
-              <a href="https://www.facebook.com/bluespaces.xyz" target="_blank">
+              <a
+                href="https://www.facebook.com/bluespaces.xyz"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <AiFillFacebook className="h-7 w-7" />
               </a>
               <a
                 href="https://www.linkedin.com/company/74349398/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <AiFillLinkedin className="h-7 w-7" />
               </a>
-              <a href="https://twitter.com/BlueSpacesLLC" target="_blank">
+              <a
+                href="https://twitter.com/BlueSpacesLLC"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <AiFillTwitterSquare className="h-7 w-7" />
               </a>
             </div>
