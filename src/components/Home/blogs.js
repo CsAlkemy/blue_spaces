@@ -1,22 +1,28 @@
 import { Link } from "gatsby"
 import React from "react"
-import Image from "../../images/office.jpg"
+import JavaS from "../../images/juanjo-jaramillo-mZnx9429i94-unsplash.jpg"
+import Analyitics from "../../images/luke-chesser-JKUTrJ4vK00-unsplash.jpg"
+import Seo from "../../images/souvik-banerjee-OMhubJCrtu0-unsplash.jpg"
+import WebSites from "../../images/website.jpg"
 const Blogs = [
   {
     title: "What is JAMSTACK and why JAMSTACK",
     subTitle: "JamStack is the new standard architecture for the web.",
     href: "https://jamstack.org/why-jamstack/",
+    Image: JavaS,
   },
   {
     title: "How we help 7House Build Fast Website.",
     subTitle: "total customer interaction of 7House is incresed.",
     href: "/",
+    Image: WebSites,
   },
   {
     title: "Why SEO is important",
     subTitle: "Why SEO is important in this era for your business.",
     href:
       "https://digitalmarketinginstitute.com/blog/what-is-seo-and-why-is-it-important",
+    Image: Seo,
   },
   {
     title: "How PowerBI help take smarter decision",
@@ -24,6 +30,7 @@ const Blogs = [
       "How Power BI can help you utilize your content and help take smarter decisions",
     href:
       "https://powerbi.microsoft.com/fr-fr/blog/five-key-trends-in-business-intelligence/",
+    Image: Analyitics,
   },
 ]
 
@@ -44,7 +51,7 @@ function blogs() {
           >
             <img
               key={blog.title}
-              src={Image}
+              src={blog.Image}
               alt="blogCard"
               className="object-cover   "
             />
